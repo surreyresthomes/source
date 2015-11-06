@@ -1,0 +1,243 @@
+# Site settings
+baseurl = "http://www.surreyresthomesltd.co.uk/"
+languageCode = "en-us"
+title = "Hugo Agency Theme"
+theme = "hugo-agency-theme"
+
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) or
+	# most longer texts.
+	#
+	# All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "Your name"
+	description = "Your description"
+
+	# Since this template is static, the contact form uses www.formspree.io as a
+	# proxy. The form makes a POST request to their servers to send the actual
+	# email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+	email = "enquiries@surreyresthomesltd.co.uk"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "Surrey Rest Homes"
+		portfolio = "Services"
+		about = "Objectives"
+		team = "Our Homes"
+		contact = "Contact"
+           services = "Availability"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background image of the hero, replace 'header-bg.jpg' in
+		# the 'static/img' folder.
+		title = "We Are Here To Help You!"
+		subtitle = "Surrey Rest Homes"
+		buttonText = "Explore"
+
+
+	# Availabilty section
+	[params.services]
+		title = "Availability"
+		subtitle = "Here you will find the availablity at each location and any other news."
+
+		[[params.services.list]]
+			icon = "fa-shopping-cart"
+			title = "Glebe House"
+			description = "We currently have 5 rooms available."
+
+		[[params.services.list]]
+			icon = "Oak House"
+			title = "Oak House"
+			description = "We currently have 2 rooms available."
+
+
+		[[params.services.list]]
+			icon = "fa-lock"
+			title = "Avens Court"
+			description = "We currently have 4 rooms available."
+
+	[[params.services.list]]
+			icon = "fa-lock"
+			title = "Heath Lodge"
+			description = "We currently have 7 rooms available."
+
+
+
+
+	# Services section
+	[params.portfolio]
+		# All projects defined in their own files. You can find example projects
+		# at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
+		# at the root of this Hugo site.
+		# For more informtion take a look at the README.
+		title = "Facilities And Services"
+		subtitle = "Surrey Homes is a family owned company commited to achieving the highest standards of accomodation, professional care and service for those in need of care."
+
+		[params.portfolio.modal]
+            client = "Client"
+            date = "Date"
+            category = "Category"
+            buttonText = "Close"
+
+
+    # Objectives section
+	[params.about]
+		title = "Surrey Rest Homes LTD"
+		subtitle = "Surrey Rest Homes aims to create an atmosphere in which residents can live as normally as possible, to enhance their quality of life by providing a safe and comfortable environment, encouraging them in their interests and activities, to maintain a climate in which induviduality, independence and personal dignity are respected. We provide warmth, good food and proper professional care at all times. Our overall aim is to ensure that all residents are happy and conteneted and to this end. We believe that there are certain basic values which contribute to quality of life for most people."
+		endpoint = "Be part<br>of our<br>story!"
+
+		# The events will be listed from the top to the bottom.
+		# All images are stored under 'static/img/about'.
+		# Replace them with your own.
+		[[params.about.events]]
+			img = "1.jpg"
+			date = "April 2015"
+			title = "Privacy"
+			description = "The right of every individual to be left alone undistributrbed and free from intrusion or public attention into their affairs."
+
+		[[params.about.events]]
+			img = "2.jpg"
+			date = "March 2011"
+			title = "Dignity"
+			description = "The right of every individual to be regcognised and valued regardless of circumstances and to have their uniqueness and personal needs treated with respect."
+
+		[[params.about.events]]
+			img = "3.jpg"
+			date = "December 2014"
+			title = "Independance"
+			description = "The right of every individual to act and think without reference to another person."
+
+		[[params.about.events]]
+			img = "4.jpg"
+			date = "July 2014"
+			title = "Choice"
+			description = "The right of every individual to the entitlements associated with citizenship."
+
+		[[params.about.events]]
+			img = "5.jpg"
+			date = "July 2014"
+			title = "Fulfilment"
+			description = "The right of every individual to realise personal aspirations and abilities in all aspects of daily life."
+
+
+	# Team section
+	[params.team]
+		title = "Our Homes"
+		subtitle = "EMI SPecialist<br>Individual Dietary Requirements<br>En-Suite Facilities<br>Daily Organised Games<br> GP, Physiotherapist, Chiropodist, Hairdresser and other Specialists<br>Short and long term residents welcome<br> "
+		description = "Registered Office, Surrey Rest Homes LTD, Oak House, KT13 9UE"
+
+		# All team member's pictures are stored under 'static/img/team'.
+		# Replace them with your own too.
+		[[params.team.members]]
+			img = "Oak House.jpg"
+			name = "Oak House"
+			position = "Registered for 16 people."
+Description = "19 Queens Road, Weybridge, Surrey, KT13 9UE"
+			social = []
+
+		[[params.team.members]]
+			img = "Avens Court.jpg"
+			name = "Avens Court"
+			position = "Registerted for 60 Residents"
+Description = "Broom Croft Drive, Old woking Road Pyford, Woking, GU22 8NS"
+			social = []
+
+
+            [[params.team.members]]
+			img = "Glebe House.jpg"
+			name = "Glebe House"
+			position = "Registered for 50 people"
+                        Description = "Broom Croft Drive, Old woking Road Pyford, Woking, GU22 8NS"
+			social = []
+
+            [[params.team.members]]
+			img = "Heath Lodge.jpg"
+			name = "Heath Lodge"
+			position = "Registered for 26 people"
+                        Description = "St. George's Avenue, Weybridge, Surrey, KT13 0DA"
+			social = []
+
+	# Client section
+	# All the clients' logos are stored under 'static/img/logos'.
+	# Replace them with your clients's logos.
+	[[params.clients]]
+		logo = "envato.jpg"
+		link = "#"
+
+	[[params.clients]]
+		logo = "designmodo.jpg"
+		link = "#"
+
+	[[params.clients]]
+		logo = "themeforest.jpg"
+		link = "#"
+
+	[[params.clients]]
+		logo = "creative-market.jpg"
+		link = "#"
+
+
+	# Contact section
+	[params.contact]
+		title = "Contact us"
+		subtitle  = "Please contact us on 01932 849844 with any questions or fill out the following form"
+		buttonText = "Send message"
+
+		# 'warning' defines error messages for invalid inputs
+		[params.contact.form.name]
+			text = "Your Name *"
+			warning = "Please enter your name."
+
+		[params.contact.form.email]
+			text = "Your Email *"
+			warning = "Please enter your email address."
+
+		[params.contact.form.phone]
+			text = "Your Phone *"
+			warning = "Please enter your phone number."
+
+		[params.contact.form.message]
+			text = "Your Message *"
+			warning = "Please enter a message."
+
+
+	# Footer section
+	[params.footer]
+		copyright = "Published under the Apache License 2.0."
+
+		[[params.footer.social]]
+			icon = "fa-twitter"
+			link = "#"
+
+		[[params.footer.social]]
+			icon = "fa-facebook"
+			link = "#"
+
+		[[params.footer.social]]
+			icon = "fa-linkedin"
+			link = "#"
+
+		[[params.footer.quicklinks]]
+			text = "Privacy Policy"
+			link = "#"
+
+		[[params.footer.quicklinks]]
+			text = "Terms of Use"
+			link = "#"

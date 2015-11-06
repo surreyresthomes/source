@@ -1,0 +1,8 @@
+{{ "<!-- Footer section -->" | safeHTML }}
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <span class="copyright">{{ with .Site.Params.footer.copyright }}{{ . | markdownify }}{{ end }}</span>
+    </div>
+</footer>
