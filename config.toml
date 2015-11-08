@@ -1,7 +1,7 @@
 # Site settings
-baseurl = "http://www.surreyresthomesltd.co.uk/"
+baseurl = "http://surreyresthomes.github.io/"
 languageCode = "en-us"
-title = "Hugo Agency Theme"
+title = "SurreyRestHomes"
 theme = "hugo-agency-theme"
 
 
@@ -16,8 +16,8 @@ theme = "hugo-agency-theme"
 
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
-	name = "Your name"
-	description = "Your description"
+	name = "Surrey rest Homes"
+	description = "Rest homes for elderly"
 
 	# Since this template is static, the contact form uses www.formspree.io as a
 	# proxy. The form makes a POST request to their servers to send the actual
@@ -220,7 +220,7 @@ Description = "Broom Croft Drive, Old woking Road Pyford, Woking, GU22 8NS"
 
 	# Footer section
 	[params.footer]
-		copyright = "Published under the Apache License 2.0."
+		copyright = "Surrey Rest Homes Ltd"
 
 		[[params.footer.social]]
 			icon = "fa-twitter"
