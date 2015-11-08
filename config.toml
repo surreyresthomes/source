@@ -58,7 +58,7 @@ theme = "hugo-agency-theme"
 		subtitle = "Here you will find the availablity at each location and any other news."
 
 		[[params.services.list]]
-			icon = "fa-shopping-cart"
+			icon = "Glebe House"
 			title = "Glebe House"
 			description = "We currently have 5 rooms available."
 
@@ -69,12 +69,12 @@ theme = "hugo-agency-theme"
 
 
 		[[params.services.list]]
-			icon = "fa-lock"
+			icon = "Avens Court"
 			title = "Avens Court"
 			description = "We currently have 4 rooms available."
 
 	[[params.services.list]]
-			icon = "fa-lock"
+			icon = "Heath Lodge"
 			title = "Heath Lodge"
 			description = "We currently have 7 rooms available."
 
