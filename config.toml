@@ -55,7 +55,7 @@ theme = "hugo-agency-theme"
 	# Availabilty section
 	[params.services]
 		title = "Availability"
-		subtitle = "Here you will find the availablity at each location and any other news."
+		subtitle = "Here you will find the availability at each location and any other news."
 
 		[[params.services.list]]
 			icon = "Glebe House"
@@ -88,7 +88,7 @@ theme = "hugo-agency-theme"
 		# at the root of this Hugo site.
 		# For more informtion take a look at the README.
 		title = "Facilities And Services"
-		subtitle = "Surrey Homes is a family owned company commited to achieving the highest standards of accomodation, professional care and service for those in need of care."
+		subtitle = "Surrey Homes is a family owned company commited to achieving the highest standards of accommodation, professional care and service for those in need of care."
 
 		[params.portfolio.modal]
             client = "Client"
@@ -100,7 +100,7 @@ theme = "hugo-agency-theme"
     # Objectives section
 	[params.about]
 		title = "Surrey Rest Homes LTD"
-		subtitle = "Surrey Rest Homes aims to create an atmosphere in which residents can live as normally as possible, to enhance their quality of life by providing a safe and comfortable environment, encouraging them in their interests and activities, to maintain a climate in which induviduality, independence and personal dignity are respected. We provide warmth, good food and proper professional care at all times. Our overall aim is to ensure that all residents are happy and conteneted and to this end. We believe that there are certain basic values which contribute to quality of life for most people."
+		subtitle = "Surrey Rest Homes aims to create an atmosphere in which residents can live as normally as possible, to enhance their quality of life by providing a safe and comfortable environment, encouraging them in their interests and activities, to maintain a climate in which individuality, independence and personal dignity are respected. We provide warmth, good food and proper professional care at all times. Our overall aim is to ensure that all residents are happy and contented and to this end. We believe that there are certain basic values which contribute to quality of life for most people."
 		endpoint = "Be part<br>of our<br>story!"
 
 		# The events will be listed from the top to the bottom.
@@ -110,18 +110,18 @@ theme = "hugo-agency-theme"
 			img = "1.jpg"
 			date = "April 2015"
 			title = "Privacy"
-			description = "The right of every individual to be left alone undistributrbed and free from intrusion or public attention into their affairs."
+			description = "The right of every individual to be left alone undisturbed and free from intrusion or public attention into their affairs."
 
 		[[params.about.events]]
 			img = "2.jpg"
 			date = "March 2011"
 			title = "Dignity"
-			description = "The right of every individual to be regcognised and valued regardless of circumstances and to have their uniqueness and personal needs treated with respect."
+			description = "The right of every individual to be recognised and valued regardless of circumstances and to have their uniqueness and personal needs treated with respect."
 
 		[[params.about.events]]
 			img = "3.jpg"
 			date = "December 2014"
-			title = "Independance"
+			title = "Independence"
 			description = "The right of every individual to act and think without reference to another person."
 
 		[[params.about.events]]
@@ -133,14 +133,14 @@ theme = "hugo-agency-theme"
 		[[params.about.events]]
 			img = "5.jpg"
 			date = "July 2014"
-			title = "Fulfilment"
+			title = "Fulfillment"
 			description = "The right of every individual to realise personal aspirations and abilities in all aspects of daily life."
 
 
 	# Team section
 	[params.team]
 		title = "Our Homes"
-		subtitle = "EMI SPecialist<br>Individual Dietary Requirements<br>En-Suite Facilities<br>Daily Organised Games<br> GP, Physiotherapist, Chiropodist, Hairdresser and other Specialists<br>Short and long term residents welcome<br> "
+		subtitle = "EMI Specialist<br>Individual Dietary Requirements<br>En-Suite Facilities<br>Daily Organised Games<br> GP, Physiotherapist, Chiropodist, Hairdresser and other Specialists<br>Short and long term residents welcome<br> "
 		description = "Registered Office, Surrey Rest Homes LTD, Oak House, KT13 9UE"
 
 		# All team member's pictures are stored under 'static/img/team'.
@@ -155,7 +155,7 @@ Description = "19 Queens Road, Weybridge, Surrey, KT13 9UE"
 		[[params.team.members]]
 			img = "Avens Court.jpg"
 			name = "Avens Court"
-			position = "Registerted for 60 Residents"
+			position = "Registered for 60 Residents"
 Description = "Broom Croft Drive, Old woking Road Pyford, Woking, GU22 8NS"
 			social = []
 
